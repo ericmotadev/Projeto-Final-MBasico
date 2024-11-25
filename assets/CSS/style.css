@@ -16,8 +16,9 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 90px; 
-    z-index: 99999; 
+    height: 40px; 
+    z-index: 99999;
+    margin-bottom: 40px; 
 }
 
 header nav{
@@ -26,11 +27,6 @@ header nav{
     align-items: center;
     justify-content: space-between;
     background-color: #031A2F;
-}
-
-header nav img{
-    width: 140px;
-    height: auto;
 }
 
 header nav ul{
@@ -54,10 +50,6 @@ header nav a{
     text-decoration: none;
 }
 
-header nav a:visited{
-    color: none;
-}
-
 header nav li{
     padding: 5px 15px;
 }
@@ -69,10 +61,6 @@ header nav li:hover{
 
 header nav li:hover a{
     color: #031A2F;
-}
-
-header nav li:active {
-    background-color: red
 }
 
 header form input{
@@ -153,7 +141,7 @@ header form button{
 
 #conteudo h3{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.1em;
 }
 
@@ -177,11 +165,9 @@ header form button{
 
 #conteudo .post article:hover {
 transform: scale(1.05);
+box-shadow: 3px 8px 15px 0px #031a2f15;
+border-color: #031a2f12;
 }
-
-#conteudo .post article:hover button{
-    display: block;
- }
 
 #conteudo .post article img{
     border-radius: 5px 5px 0 0;
@@ -194,23 +180,79 @@ transform: scale(1.05);
 }
 
 #conteudo .post article p{
-    padding: 10px 20px;
+    padding: 0px 20px;
     font-size: 16px;
     font-weight: 400;
 }
 
 #conteudo .post article button{
-    display: none;
     margin: 20px;
     padding: 5px 25px;
+    transition: all .6s;
+
     font-size: 16px;
     font-weight: 300;
-    transition: all .8s;
-    
-    border: 0;
+    color: #E1E1E1;
+
+    border: solid 1px #031A2F;
+    border-radius: 5px;
+    background-color: #031A2F;
+}
+
+#conteudo .post article button:hover{
+    margin: 20px;
+    padding: 5px 25px;
+    transition: all .6s;
+
+    font-size: 16px;
+    font-weight: 300;
+    color: #031A2F;
+
+    border: solid 1px #031A2F;
+    border-radius: 5px;
+    background-color: #E1E1E1;
+}
+
+/* Main - Video */
+
+#videos{
+    display: block; /* Necessário para o margin funcionar */
+    margin-left: auto; /* aqui */
+    margin-right: auto; /* e aqui */
+    padding: 45px;
+    border-radius: 5px;
+    text-align: center;
+
     background-color: #031A2F;
     color: #E1E1E1;
+    width: 45%;
+}
+
+#videos iframe{
+padding: 20px 0;
     border-radius: 5px;
+
+}
+
+/* Main - Especialistas */
+
+#especialistas{
+    padding: 80px 40px;
+    text-align: center;
+
+}
+
+#especialistas h2{
+    padding: 25px 0;
+  
+}
+
+#especialistas .cards-especialistas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 @media screen and (max-width: 480px) {
