@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Turismo - Desafio Capacita</title>
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+       
+        <nav>
+            <img src="assets/imgs/img-logo.jpg" alt="Logo avião">
+            <ul>
+                <li> <a href="#inicio">Início</a> </li>
+                <li> <a href="#conteudo">Conteúdo</a> </li>
+                <li> <a href="#videos">Vídeos</a> </li>
+                <li> <a href="#especialistas">Especialistas</a> </li>
+                <li> <a href="#contato">Contato</a> </li>
+            </ul>
+
+            <form>
+                <input type="text" required>
+                <button type="submit">Pesquisar</button>
+            </form>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="banner">
+            <h1>
+                Viage<br> e Explore
+            </h1>
+            <h2>
+                Descubra destinos incríveis e <br>viva experiências únicas.
+            </h2>
+            <button>oioio</button>
+        </section>
+        <h1></h1>
+        <p></p>
+        <section id="conteudo">
+            <h2>Artigos</h2><br>
+            <div class="post">
+            <article>
+                <h2>Fortaleza - Ceará</h2>
+                <img src="assets/imgs/img-fortaleza.jpeg" alt="A imagem mostra uma praia paradisíaca em Fortaleza" width="400" height="200">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra dui purus, eget pellentesque neque vehicula eu. Suspendisse tristique libero diam, sit amet gravida risus euismod dapibus. </p>
+                <a href="">Leia mais</a>
+            </article>
+            <article>
+                <h2>Guaramiranga - Ceará</h2>
+                <img src="assets/imgs/img-guara.webp" alt="A imagem mostra a paisagem da cidade de Guaramiranga" width="400" height="200">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra dui purus, eget pellentesque neque vehicula eu. Suspendisse tristique libero diam, sit amet gravida risus euismod dapibus. </p>
+                <a href="">Leia mais</a>
+            </article>
+        </div>
+        </section>
+        
+        <section id="videos">
+            <h2>Vídeo</h2>
+            <iframe width="550" height="303" src="https://www.youtube.com/embed/-jLXO0fd2Tk" title="Fortaleza, Brazil 🇧🇷 in 4K ULTRA HD 60FPS Video by Drone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra dui purus, eget pellentesque neque vehicula eu. Suspendisse tristique libero diam, sit amet gravida risus euismod dapibus. </p>
+        </section>
+        
+        <section id="especialistas">
+            <h2>Especialistas</h2>
+            <div class="cards-especialistas">
+            <div class="especialista">
+                <img src="assets/imgs/especisliata.png" alt="Foto do Especialista">
+                <h3>Especialista 1</h3>
+                <p>Guia turistico</p>
+                <p>Muita experiência</p>
+                <div class="redes-sociais">
+                    <a href="https://www.facebook.com/"> <img src="assets/imgs/facebook.svg" alt="Logo Facebook"> </a>
+                    <a href="https://www.instagram.com/"> <img src="assets/imgs/instagram.svg" alt="Logo instagram"> </a>
+                </div>
+            </div>
+
+            <div class="especialista">
+                <img src="assets/imgs/especisliata.png" alt="Foto do Especialista">
+                <h3>Especialista 2</h3>
+                <p>Guia turistico</p>
+                <p>Muita experiência</p>
+                <div class="redes-sociais">
+                    <a href="https://www.facebook.com/"> <img src="assets/imgs/facebook.svg" alt="Logo Facebook"> </a>
+                    <a href="https://www.instagram.com/"> <img src="assets/imgs/instagram.svg" alt="Logo instagram"> </a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Nome" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email" required>
+                <br><br>
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" required>
+                  <option value="duvida">Dúvida</option>
+                  <option value="sugestao">Sugestão</option>
+                  <option value="reclamacao">Reclamação</option>
+                </select>
+                <br><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" placeholder="Mensagem" required></textarea>
+                <br><br>
+                <button type="submit">Enviar</button>
+              </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li> <a href="">Política de Privacidade</a> </li>
+                <li> <a href="">Termos de Uso</a> </li>
+                <li> <a href="">Ajuda</a> </li>
+            </ul>
+        </nav>
+
+        <div id="redes-sociais">
+            <a href="https://www.facebook.com/"> <img src="assets/imgs/facebook.svg" alt="Logo Facebook"> </a>
+            <a href="https://www.instagram.com/"> <img src="assets/imgs/instagram.svg" alt="Logo instagram"> </a>
+        </div>
+
+        <section id="contato">
+            <p>Email: contato@email.com</p>
+            <p>Telefone: (85) 99999-9999</p>
+        </section>
+    </footer>
+</body>
+
+</html>
