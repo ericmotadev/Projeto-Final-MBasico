@@ -216,9 +216,9 @@ border-color: #031a2f12;
 /* Main - Video */
 
 #videos{
-    display: block; /* Necessário para o margin funcionar */
-    margin-left: auto; /* aqui */
-    margin-right: auto; /* e aqui */
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
     padding: 45px;
     border-radius: 5px;
     text-align: center;
@@ -288,6 +288,27 @@ padding: 20px 0;
 }
 
 /* Main - Contato */
+
+#contato{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 40px;
+    border-radius: 5px;
+
+    color: #E1E1E1;
+    text-align: center;
+    background-color: #031A2F;
+    width: 45%;
+}
+
+#contato form{
+    text-align: center;
+    width: 100%;
+}
+
+
 
 /* Footer */
 footer {
